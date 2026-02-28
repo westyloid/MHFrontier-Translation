@@ -1,81 +1,131 @@
 # Monster Hunter Frontier Translation
 
-A community-driven project to translate Monster Hunter Frontier game files.
-This is a *translation setup guide*, if you only want to translate game files, check the online Weblate website.
+A curated guide to translating Monster Hunter Frontier, a Japanese MMORPG shut down by Capcom in 2019.
+This project documents the tools, translatable content, and community efforts around MHF localization.
 
-## Table of Contents
+## Tools
 
-1. [Introduction](#introduction)
-2. [Requirements](#requirements)
-3. [Setup](#setup)
-4. [Translation Process](#translation-process)
-5. [Other tools](#other-tools-not-integrated-yet)
+### Text Extraction & Reimport
 
-## Introduction
+| Tool | Language | Description |
+|------|----------|-------------|
+| [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) | Python | Full pipeline: decrypt, decompress, extract, edit, reimport, compress, encrypt. Handles all main game text files. |
+| [ReFrontier](https://github.com/Houmgaor/ReFrontier) | C# | Archive unpacking, batch decryption/decompression. Useful for non-text data and bulk processing. |
 
-The Frontier Translation Project aims to facilitate the translation of Monster Hunter Frontier game files through a community effort.
-This project relies on the collaboration of users who contribute translations via Weblate, an open-source web platform.
+### Dialogue & Quests
 
-If you only want to translate game files, you only need to register on Weblate.
-If you wan to dig deeper, read the next sections.
+| Tool | Language | Description |
+|------|----------|-------------|
+| [readDialogue.py](https://gist.github.com/stratic-dev/162f4e5ad1766aeb59eb5edf1c1fb288) | Python | Extract NPC dialogue from stage files. |
+| [writeDialogue.py](https://gist.github.com/stratic-dev/51e7927afc67612782e54ae87b4612b2) | Python | Reimport NPC dialogue into stage files. |
+| [MHFZ Quest Editor](https://github.com/Paxlord/PaxMHFZQuestEditor) | — | Server-side quest data editor. Designed for closed-loop use. |
 
-## Requirements
+### Translation Platforms
 
-To participate in this project, you will need:
+| Tool | Description |
+|------|-------------|
+| [Weblate](https://weblate.org/) | Open-source web translation platform. Can be self-hosted to manage translations collaboratively. |
 
-* [ReFrontier](https://github.com/Houmgaor/ReFrontier): A C# application used for decrypting and decompressing Frontier game files.
-* [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler): A Python tool that extracts strings from original source files and creates a CSV file for translation purposes.
-* The original game files.
+## Translatable Content
 
-## Setup
+All game text uses Shift-JIS encoding. FrontierTextHandler extracts it to CSV (UTF-8) with columns: `location`, `source`, `target`.
 
-To start, follow these steps:
+### mhfdat.bin — Main Game Data
 
-1. Get the original game files.
-2. Download and install [ReFrontier](https://github.com/Houmgaor/ReFrontier). You can use the release for pre-built executables.
-3. Obtain FrontierTextHandler and use it to create a CSV file from the original game file.
-4. Push the resulting CSV file to Weblate for translation.
+| Category | XPath | Content |
+|----------|-------|---------|
+| Weapon names (melee) | `dat/weapons/melee/name` | Great Sword, Hammer, Long Sword, etc. |
+| Weapon descriptions (melee) | `dat/weapons/melee/description` | Melee weapon flavor text |
+| Weapon names (ranged) | `dat/weapons/ranged/name` | Bow, Bowgun, etc. |
+| Weapon descriptions (ranged) | `dat/weapons/ranged/description` | Ranged weapon flavor text |
+| Head armor | `dat/armors/head` | Helmet names |
+| Body armor | `dat/armors/body` | Chest armor names |
+| Arm armor | `dat/armors/arms` | Gauntlet names |
+| Waist armor | `dat/armors/waist` | Belt/fauld names |
+| Leg armor | `dat/armors/legs` | Greave names |
+| Item names | `dat/items/name` | Consumables, materials, key items |
+| Item descriptions | `dat/items/description` | Item effect and lore text |
+| Item sources | `dat/items/source` | Acquisition info |
+| Monster descriptions | `dat/monsters/description` | Monster lore |
+| Equipment descriptions | `dat/equipment/description` | General equipment flavor text |
+| Rank labels | `dat/ranks/label` | HR requirement labels |
+| Rank requirements | `dat/ranks/requirement` | Rank requirement descriptions |
+| Hunting Horn guide | `dat/hunting_horn/guide` | Song effect guide |
+| Hunting Horn tutorial | `dat/hunting_horn/tutorial` | Tutorial text |
 
-Assuming you use Windows and ReFrontier 1.2.0, the commands to get the CSV should look something like this:
+### mhfpac.bin — Skills
+
+| Category | XPath | Content |
+|----------|-------|---------|
+| Skill names | `pac/skills/name` | Skill activation names |
+| Skill effects | `pac/skills/effect` | Skill effect descriptions |
+| Zenith skill effects | `pac/skills/effect_z` | Zenith-era skill descriptions |
+| Skill descriptions | `pac/skills/description` | Skill point descriptions |
+| UI text tables | `pac/text_14` to `pac/text_d0` | Menu labels, interface strings (20+ tables) |
+
+### mhfinf.bin — Quests
+
+| Category | XPath | Content |
+|----------|-------|---------|
+| Quest info | `inf/quests` | Quest names, descriptions, objectives (8 fields per quest) |
+
+### mhfjmp.bin — Fast Travel
+
+| Category | XPath | Content |
+|----------|-------|---------|
+| Location titles | `jmp/menu/title` | Teleport point names |
+| Location descriptions | `jmp/menu/description` | Area descriptions |
+| Menu strings | `jmp/strings` | Navigation UI text |
+
+### Other Formats
+
+| Format | Flag | Content |
+|--------|------|---------|
+| FTXT files | `--ftxt` | Standalone text containers (magic `0x000B0000`) |
+| Quest binaries | `--quest` / `--quest-dir` | Individual quest `.bin` files |
+| NPC dialogue | `--npc` / `--npc-dir` | Stage dialogue files |
+
+## Quick Start
+
+### Extract text
 
 ```bash
-# Create mhfdat.bin.decd.bin, a readable version of mhfdat.bin
-./ReFrontier.exe mhfdat.bin --log --noFileRewrite --close  
-cp mhfdat.bin.decd.bin ../FrontierTextHandler/data
-cd ../FrontierTextHandler
-python main.py mhfdat.bin.decd.bin --xpath=dat/items/name
+# Extract everything at once (auto-decrypts)
+cd FrontierTextHandler
+python main.py --extract-all
+
+# Or extract a specific category
+python main.py --xpath=dat/items/name
 ```
 
-The CSV file should be ``FrontierTextHandler/output/dat-items-name.csv``.
+### Edit translations
 
-## Translation Process
+Edit the generated CSV in `output/`. Fill in the `target` column with your translation.
 
-Once your translation is complete, follow these steps:
-
-1. Download the translated CSV file from Weblate.
-2. Use FrontierTextHandler to insert the translated CSV file into your original game file.
-3. Utilize ReFrontier to reformat the file into a format compatible with the Frontier client.
-
-Starting from the CSV and ReFrontier 1.2, with a translated file called "dat-items-name.csv":
+### Reimport into game files
 
 ```bash
-# Edit the binary file with the new translations
-python main.py mhfdat.bin.decd.bin dat-items-name.csv --insert
-cp mhfdat.bin.decd.bin ../ReFrontier
-cd ../ReFrontier
-# Create a new mhfdat.bin
-./ReFrontier.exe mhfdat.bin.decd.bin --compress=3,80 --encrypt --close
+# Produce a game-ready file
+python main.py --csv-to-bin output/dat-items-name.csv data/mhfdat.bin --compress --encrypt
 ```
 
-Replace your original "mhfdat.bin" by the new one.
-You can now enjoy new translations.
+Replace the original `mhfdat.bin` with the output.
 
-## Other tools (not integrated yet)
+## Community Efforts
 
-For NPC dialogues, you can use: [stratick-dev/readDialogue.py](https://gist.github.com/stratic-dev/162f4e5ad1766aeb59eb5edf1c1fb288) and [stratick-dev/writeDialogue.py](https://gist.github.com/stratic-dev/51e7927afc67612782e54ae87b4612b2).
+*Know of a translation project? Open an issue or PR to add it here.*
 
-For quest data (on the server side): [Pax's MHFZ Quest Editor](https://github.com/Paxlord/PaxMHFZQuestEditor). The main issue of this tool is that it is built to be used in closed loop.
+| Language | Project | Status | Coverage |
+|----------|---------|--------|----------|
+| English | — | — | — |
+| French | — | — | — |
 
-## Notes
+## How to Contribute
 
-The downloaded translation will be in the form of a CSV file. When using ReFrontier, ensure that you are working with the correct file formats and settings to avoid any issues.
+1. **Translate text**: Extract a category with FrontierTextHandler, translate the CSV, and submit a PR.
+2. **Document a project**: If you know of an active translation effort, open an issue to get it listed.
+3. **Improve tooling**: Contributions to FrontierTextHandler and ReFrontier are welcome.
+
+## Disclaimer
+
+Monster Hunter Frontier and all associated game text are the property of Capcom Co., Ltd. This project is a non-commercial fan translation effort for game preservation purposes. No original game code is included. If Capcom requests removal, we will comply immediately.
