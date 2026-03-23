@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MHFrontier Translation Progress</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --green: #3fb950;
+      --green-dim: #1a4a24;
+      --blue: #58a6ff;
+      --accent: #f78166;
+      font-size: 15px;
+    }
+
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; }
+
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.5rem 2rem; }
+    header h1 { font-size: 1.5rem; font-weight: 600; }
+    header p { color: var(--muted); margin-top: 0.25rem; font-size: 0.9rem; }
+    header .meta { color: var(--muted); font-size: 0.8rem; margin-top: 0.5rem; }
+
+    main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    /* Language tabs */
+    .lang-tabs { display: flex; gap: 0.5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .lang-tab {
+      padding: 0.4rem 1rem; border-radius: 6px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--text); cursor: pointer; font-size: 0.9rem;
+      transition: border-color 0.15s;
+    }
+    .lang-tab:hover { border-color: var(--blue); }
+    .lang-tab.active { border-color: var(--blue); background: #1c2433; color: var(--blue); }
+
+    /* Overall progress card */
+    .overview-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      padding: 1.5rem; margin-bottom: 2rem;
+    }
+    .overview-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; }
+    .overview-numbers { display: flex; gap: 2rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .stat-item .value { font-size: 1.75rem; font-weight: 700; }
+    .stat-item .label { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+    .stat-item.translated .value { color: var(--green); }
+    .stat-item.untranslated .value { color: var(--muted); }
+    .stat-item.coverage .value { color: var(--blue); }
+
+    /* Progress bar */
+    .progress-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--green); border-radius: 4px; transition: width 0.4s ease; }
+
+    /* Section groups */
+    .group { margin-bottom: 2rem; }
+    .group-title {
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border); margin-bottom: 0.75rem;
+    }
+
+    /* Section rows */
+    .section-table { width: 100%; border-collapse: collapse; }
+    .section-table tr { border-bottom: 1px solid var(--border); }
+    .section-table tr:last-child { border-bottom: none; }
+    .section-table td { padding: 0.6rem 0.5rem; vertical-align: middle; }
+    .section-table .col-name { width: 30%; }
+    .section-table .col-bar { width: 40%; }
+    .section-table .col-count { width: 15%; text-align: right; font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
+    .section-table .col-pct { width: 10%; text-align: right; font-size: 0.85rem; font-weight: 600; white-space: nowrap; }
+    .section-table .col-link { width: 5%; text-align: center; }
+
+    .xpath-name { font-size: 0.85rem; font-family: "SFMono-Regular", Consolas, monospace; }
+    .xpath-name a { color: var(--blue); text-decoration: none; }
+    .xpath-name a:hover { text-decoration: underline; }
+
+    .pct-full { color: var(--green); }
+    .pct-high { color: #7ee787; }
+    .pct-mid  { color: #d29922; }
+    .pct-low  { color: var(--accent); }
+
+    .edit-link { color: var(--muted); font-size: 0.75rem; text-decoration: none; }
+    .edit-link:hover { color: var(--blue); }
+
+    /* Mini progress inside table */
+    .mini-bar { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .mini-fill { height: 100%; border-radius: 3px; }
+    .fill-full    { background: var(--green); }
+    .fill-high    { background: #7ee787; }
+    .fill-mid     { background: #d29922; }
+    .fill-low     { background: var(--accent); }
+    .fill-empty   { background: var(--border); }
+
+    .no-data { color: var(--muted); font-style: italic; text-align: center; padding: 3rem; }
+    .error { color: var(--accent); padding: 2rem; }
+
+    @media (max-width: 600px) {
+      .section-table .col-bar { display: none; }
+      .section-table .col-name { width: 50%; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>MHFrontier Translation Progress</h1>
+  <p>Community translation of Monster Hunter Frontier (Capcom, 2007–2019)</p>
+  <div class="meta" id="meta">Loading…</div>
+</header>
+<main>
+  <div id="app"><p class="no-data">Loading statistics…</p></div>
+</main>
+
+<script>
+const REPO = "Mogapedia/MHFrontier-Translation";
+const BRANCH = "main";
+const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/translations`;
+const GITHUB_BASE = `https://github.com/${REPO}/blob/${BRANCH}/translations`;
+
+// Group xpaths by logical section
+const GROUPS = {
+  "mhfdat.bin — Armor":        p => p.startsWith("dat/armors/"),
+  "mhfdat.bin — Items":        p => p.startsWith("dat/items/"),
+  "mhfdat.bin — Weapons":      p => p.startsWith("dat/weapons/"),
+  "mhfdat.bin — Equipment":    p => p.startsWith("dat/equipment/"),
+  "mhfdat.bin — Monsters":     p => p.startsWith("dat/monsters/"),
+  "mhfdat.bin — Ranks":        p => p.startsWith("dat/ranks/"),
+  "mhfdat.bin — Hunting Horn": p => p.startsWith("dat/hunting_horn/"),
+  "mhfpac.bin — Skills":       p => p.startsWith("pac/skills/"),
+  "mhfpac.bin — UI Text":      p => p.startsWith("pac/text"),
+  "mhfinf.bin — Quests":       p => p.startsWith("inf/"),
+  "mhfjmp.bin — Fast Travel":  p => p.startsWith("jmp/"),
+};
+
+function groupFiles(files) {
+  const grouped = {};
+  const placed = new Set();
+  for (const [groupName, test] of Object.entries(GROUPS)) {
+    const entries = Object.entries(files).filter(([k]) => test(k));
+    if (entries.length) {
+      grouped[groupName] = entries;
+      entries.forEach(([k]) => placed.add(k));
+    }
+  }
+  const rest = Object.entries(files).filter(([k]) => !placed.has(k));
+  if (rest.length) grouped["Other"] = rest;
+  return grouped;
+}
+
+function pctClass(pct) {
+  if (pct >= 100) return "full";
+  if (pct >= 75)  return "high";
+  if (pct >= 25)  return "mid";
+  return "low";
+}
+
+function fmt(n) { return n.toLocaleString(); }
+
+function renderLang(lang, ls) {
+  const grouped = groupFiles(ls.files);
+  let html = `
+    <div class="overview-card">
+      <h2>Overall Progress</h2>
+      <div class="overview-numbers">
+        <div class="stat-item translated">
+          <div class="value">${fmt(ls.translated)}</div>
+          <div class="label">Translated</div>
+        </div>
+        <div class="stat-item untranslated">
+          <div class="value">${fmt(ls.untranslated)}</div>
+          <div class="label">Untranslated</div>
+        </div>
+        <div class="stat-item coverage">
+          <div class="value">${ls.coverage}%</div>
+          <div class="label">Coverage</div>
+        </div>
+        <div class="stat-item">
+          <div class="value">${fmt(ls.total)}</div>
+          <div class="label">Total strings</div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:${ls.coverage}%"></div>
+      </div>
+    </div>`;
+
+  for (const [groupName, entries] of Object.entries(grouped)) {
+    html += `<div class="group"><div class="group-title">${groupName}</div>`;
+    html += `<table class="section-table">`;
+    for (const [xpath, fs] of entries) {
+      const cls = pctClass(fs.coverage);
+      const fillCls = fs.total === 0 ? "fill-empty" : `fill-${cls}`;
+      const pctCls = fs.total === 0 ? "" : `pct-${cls}`;
+      const csvUrl = `${GITHUB_BASE}/${lang}/${xpath}.csv`;
+      const pctStr = fs.total === 0 ? "—" : `${fs.coverage}%`;
+      const countStr = fs.total === 0 ? "—" : `${fmt(fs.translated)}/${fmt(fs.total)}`;
+      html += `
+        <tr>
+          <td class="col-name">
+            <div class="xpath-name">
+              <a href="${csvUrl}" target="_blank" rel="noopener">${xpath}</a>
+            </div>
+          </td>
+          <td class="col-bar">
+            <div class="mini-bar">
+              <div class="mini-fill ${fillCls}" style="width:${fs.total ? fs.coverage : 0}%"></div>
+            </div>
+          </td>
+          <td class="col-count">${countStr}</td>
+          <td class="col-pct ${pctCls}">${pctStr}</td>
+          <td class="col-link">
+            <a class="edit-link" href="${csvUrl}" target="_blank" rel="noopener" title="View on GitHub">↗</a>
+          </td>
+        </tr>`;
+    }
+    html += `</table></div>`;
+  }
+  return html;
+}
+
+async function main() {
+  const app = document.getElementById("app");
+  const meta = document.getElementById("meta");
+
+  let stats;
+  try {
+    const res = await fetch("stats.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    stats = await res.json();
+  } catch (e) {
+    app.innerHTML = `<p class="error">Could not load stats.json: ${e.message}<br>
+      This page requires the CI-generated stats file. Run <code>python scripts/stats.py</code> locally to preview.</p>`;
+    return;
+  }
+
+  const date = new Date(stats.generated_at);
+  meta.textContent = `Last updated: ${date.toUTCString()}`;
+
+  const langs = Object.keys(stats.languages);
+  if (langs.length === 0) {
+    app.innerHTML = `<p class="no-data">No translation data found.</p>`;
+    return;
+  }
+
+  let activeLang = langs[0];
+
+  function render() {
+    const tabsHtml = langs.map(l =>
+      `<button class="lang-tab${l === activeLang ? " active" : ""}" data-lang="${l}">${l.toUpperCase()}</button>`
+    ).join("");
+
+    const contentHtml = renderLang(activeLang, stats.languages[activeLang]);
+
+    app.innerHTML = `
+      <div class="lang-tabs">${tabsHtml}</div>
+      ${contentHtml}`;
+
+    app.querySelectorAll(".lang-tab").forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeLang = btn.dataset.lang;
+        render();
+      });
+    });
+  }
+
+  render();
+}
+
+main();
+</script>
+</body>
+</html>

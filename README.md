@@ -4,6 +4,8 @@ A community-maintained translation of Monster Hunter Frontier — a Japanese MMO
 
 Translation data lives directly in this repository as CSV files, one per game section. No server required.
 
+**[View translation progress →](https://mogapedia.github.io/MHFrontier-Translation/)**
+
 ## Repository layout
 
 ```
@@ -19,6 +21,9 @@ scripts/
   migrate.py                 ← split a monolithic Weblate CSV into per-section files
   validate.py                ← check CSV format (run locally or in CI)
   export_json.py             ← generate translations.json for downstream tools
+  stats.py                   ← generate stats.json (coverage per file/language)
+docs/
+  index.html                 ← GitHub Pages translation dashboard (fetches stats.json)
 ```
 
 Each CSV has three columns:
@@ -98,6 +103,15 @@ python scripts/export_json.py                  # → translations.json (all stri
 python scripts/export_json.py --only-translated  # → translations.json (non-empty targets only)
 ```
 
+### Check coverage locally
+
+```bash
+python scripts/stats.py                        # → stats.json (all languages)
+python scripts/stats.py translations/fr/       # → stats.json (one language)
+```
+
+Open `docs/index.html` in a browser after placing `stats.json` next to it to preview the dashboard.
+
 The release workflow runs this automatically on every push to `main` and publishes the JSON to GitHub Releases.
 
 ## Translatable content
@@ -157,6 +171,7 @@ All game text uses Shift-JIS encoding internally. FrontierTextHandler handles en
 |----------|---------|--------------|
 | Validate | Every PR touching `translations/` | Checks CSV format and reports coverage |
 | Release | Every push to `main` | Validates all CSVs, exports JSON, publishes to Releases |
+| Pages | Every push to `main` | Generates `stats.json`, deploys dashboard to GitHub Pages |
 
 ## Community efforts
 
