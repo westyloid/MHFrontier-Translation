@@ -4977,11 +4977,11 @@ location,source,target
 0x93e3b8@mhfdat-jp.bin,幻雷大剣【雷牙】,
 0x93e3bc@mhfdat-jp.bin,ソワール＝ダオラ,
 0x93e3c0@mhfdat-jp.bin,炎王槍【鬼火】,
-0x93e3c4@mhfdat-jp.bin,カロル＝アーラ,
-0x93e3c8@mhfdat-jp.bin,フラン＝アーラ,
-0x93e3cc@mhfdat-jp.bin,ソル＝アーラ,
-0x93e3d0@mhfdat-jp.bin,ニゲル・Ｓ・アーラ,
-0x93e3d4@mhfdat-jp.bin,ニゲル＝ソル,
+0x93e3c4@mhfdat-jp.bin,カロル＝アーラ,Ala Caroli
+0x93e3c8@mhfdat-jp.bin,フラン＝アーラ,Ala Franciscae
+0x93e3cc@mhfdat-jp.bin,ソル＝アーラ,Ala Solis
+0x93e3d0@mhfdat-jp.bin,ニゲル・Ｓ・アーラ,Ala Solis Obscuri
+0x93e3d4@mhfdat-jp.bin,ニゲル＝ソル,Sol Obscurus
 0x93e3d8@mhfdat-jp.bin,エクエスマヒート,
 0x93e3dc@mhfdat-jp.bin,エクエスマヒヴェリ,
 0x93e3e0@mhfdat-jp.bin,エクエスマヒエルド,
@@ -5045,11 +5045,11 @@ location,source,target
 0x93e4c8@mhfdat-jp.bin,アメシススワロウ𧶠,
 0x93e4cc@mhfdat-jp.bin,動如雷霆,
 0x93e4d0@mhfdat-jp.bin,ヒュプノサイレンス,
-0x93e4d4@mhfdat-jp.bin,ファトス＝アーラ,
-0x93e4d8@mhfdat-jp.bin,ウィタ＝アーラ,
-0x93e4dc@mhfdat-jp.bin,モルス＝アーラ,
-0x93e4e0@mhfdat-jp.bin,ニゲル・Ｍ・アーラ,
-0x93e4e4@mhfdat-jp.bin,ニゲル＝モルス,
+0x93e4d4@mhfdat-jp.bin,ファトス＝アーラ,Ala Fati
+0x93e4d8@mhfdat-jp.bin,ウィタ＝アーラ,Ala Vitae
+0x93e4dc@mhfdat-jp.bin,モルス＝アーラ,Ala Mortis
+0x93e4e0@mhfdat-jp.bin,ニゲル・Ｍ・アーラ,Ala Mortis Obscurae
+0x93e4e4@mhfdat-jp.bin,ニゲル＝モルス,Mors Obscura
 0x93e4e8@mhfdat-jp.bin,天狼極剣【月蝕】,
 0x93e4ec@mhfdat-jp.bin,ヴォルノボリ大剣,
 0x93e4f0@mhfdat-jp.bin,ヴォルノボリ・ヒゴイ,
@@ -5121,11 +5121,11 @@ location,source,target
 0x93e5f8@mhfdat-jp.bin,蜘蛛切【真影】,
 0x93e5fc@mhfdat-jp.bin,蜘蛛切【冥府】,
 0x93e600@mhfdat-jp.bin,エクスデルガード,
-0x93e604@mhfdat-jp.bin,ラピス＝アーラ,
-0x93e608@mhfdat-jp.bin,ルーペス＝アーラ,
-0x93e60c@mhfdat-jp.bin,カリプス＝アーラ,
-0x93e610@mhfdat-jp.bin,ニゲル・Ｃ・アーラ,
-0x93e614@mhfdat-jp.bin,ニゲル＝カリプス,
+0x93e604@mhfdat-jp.bin,ラピス＝アーラ,Ala Lapidis
+0x93e608@mhfdat-jp.bin,ルーペス＝アーラ,Ala Rupis
+0x93e60c@mhfdat-jp.bin,カリプス＝アーラ,Ala Corporis
+0x93e610@mhfdat-jp.bin,ニゲル・Ｃ・アーラ,Ala Corporis Obscuri
+0x93e614@mhfdat-jp.bin,ニゲル＝カリプス,Corpus Obscurum
 0x93e618@mhfdat-jp.bin,グレンヴァイツ,
 0x93e61c@mhfdat-jp.bin,グレンヴェッヘン,
 0x93e620@mhfdat-jp.bin,グレンヴィーレン,
@@ -5951,13 +5951,13 @@ location,source,target
 0x93f2f0@mhfdat-jp.bin,スティルファンタズマ,
 0x93f2f4@mhfdat-jp.bin,トライブレイズ,
 0x93f2f8@mhfdat-jp.bin,カリバーンＦ,
-0x93f2fc@mhfdat-jp.bin,グラシエ＝アーラSP貤,
-0x93f300@mhfdat-jp.bin,グラシエ＝アーラSP賖,
-0x93f304@mhfdat-jp.bin,グラシエ＝アーラSP賕,
-0x93f308@mhfdat-jp.bin,グラシエ＝アーラSP賙,
-0x93f30c@mhfdat-jp.bin,グラシエ＝アーラSP𧶠,
-0x93f310@mhfdat-jp.bin,グラシエ＝アーラSP賰,
-0x93f314@mhfdat-jp.bin,グラシエ＝アーラSP賱,
+0x93f2fc@mhfdat-jp.bin,グラシエ＝アーラSP貤,Ala Grata SP貤
+0x93f300@mhfdat-jp.bin,グラシエ＝アーラSP賖,Ala Grata SP賖
+0x93f304@mhfdat-jp.bin,グラシエ＝アーラSP賕,Ala Grata SP賕
+0x93f308@mhfdat-jp.bin,グラシエ＝アーラSP賙,Ala Grata SP賙
+0x93f30c@mhfdat-jp.bin,グラシエ＝アーラSP𧶠,Ala Grata SP𧶠
+0x93f310@mhfdat-jp.bin,グラシエ＝アーラSP賰,Ala Grata SP賰
+0x93f314@mhfdat-jp.bin,グラシエ＝アーラSP賱,Ala Grata SP賱
 0x93f318@mhfdat-jp.bin,スリープフェザー,
 0x93f31c@mhfdat-jp.bin,スランバーフェザー,
 0x93f320@mhfdat-jp.bin,レストフェザー,
