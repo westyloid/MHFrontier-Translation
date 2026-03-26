@@ -902,21 +902,21 @@ location,source,target
 0x939870@mhfdat-jp.bin,光刀【金】,
 0x939874@mhfdat-jp.bin,光刀改【金】,
 0x939878@mhfdat-jp.bin,真・光刀【金】,
-0x93987c@mhfdat-jp.bin,サザナミ,
-0x939880@mhfdat-jp.bin,ツナミ,
+0x93987c@mhfdat-jp.bin,サザナミ,Calm Wave
+0x939880@mhfdat-jp.bin,ツナミ,Tsunami
 0x939884@mhfdat-jp.bin,龍木ノ太刀【魔睡】,
 0x939888@mhfdat-jp.bin,眠鳥剛槌【熟睡】,
 0x93988c@mhfdat-jp.bin,眠鳥剛槌【爆睡】,
 0x939890@mhfdat-jp.bin,ギフトブロウ,
 0x939894@mhfdat-jp.bin,ギフトスマッシュ,
 0x939898@mhfdat-jp.bin,ギフトストライク,
-0x93989c@mhfdat-jp.bin,ねこ手【こそ泥】,
-0x9398a0@mhfdat-jp.bin,ねこ手【盗人】,
-0x9398a4@mhfdat-jp.bin,ねこ手【怪盗】,
+0x93989c@mhfdat-jp.bin,ねこ手【こそ泥】,Catspaw
+0x9398a0@mhfdat-jp.bin,ねこ手【盗人】,Catburglar
+0x9398a4@mhfdat-jp.bin,ねこ手【怪盗】,Catlike Tread
 0x9398a8@mhfdat-jp.bin,ザザミカスタネット,
 0x9398ac@mhfdat-jp.bin,ザザミパリージョ,
-0x9398b0@mhfdat-jp.bin,水晶ランス,
-0x9398b4@mhfdat-jp.bin,プレシャスランス,
+0x9398b0@mhfdat-jp.bin,水晶ランス,Crystalline Lance
+0x9398b4@mhfdat-jp.bin,プレシャスランス,Precious Lance
 0x9398b8@mhfdat-jp.bin,エーベルシュタイン,
 0x9398bc@mhfdat-jp.bin,錫杖槍【日光】,
 0x9398c0@mhfdat-jp.bin,錫杖槍【天照】,
@@ -3021,7 +3021,7 @@ location,source,target
 0x93c518@mhfdat-jp.bin,ダミー,
 0x93c51c@mhfdat-jp.bin,ダミー,
 0x93c520@mhfdat-jp.bin,ダミー,
-0x93c524@mhfdat-jp.bin,ねこ手【義賊】,
+0x93c524@mhfdat-jp.bin,ねこ手【義賊】,Kittenhood
 0x93c528@mhfdat-jp.bin,ケレスシュヴェルト貤,
 0x93c52c@mhfdat-jp.bin,ケレスシュヴェルト賖,
 0x93c530@mhfdat-jp.bin,ケレスシュヴェルト賕,
@@ -4905,7 +4905,7 @@ location,source,target
 0x93e298@mhfdat-jp.bin,アシエルランス,
 0x93e29c@mhfdat-jp.bin,カリュプスランス,
 0x93e2a0@mhfdat-jp.bin,アダマスランス,
-0x93e2a4@mhfdat-jp.bin,ニゲルレベリオ,
+0x93e2a4@mhfdat-jp.bin,ニゲルレベリオ,Rebellio Obscura
 0x93e2a8@mhfdat-jp.bin,メモリーハート,
 0x93e2ac@mhfdat-jp.bin,ツインハート,
 0x93e2b0@mhfdat-jp.bin,フローレンスハート,
@@ -5044,7 +5044,7 @@ location,source,target
 0x93e4c4@mhfdat-jp.bin,アメシススワロウ賙,
 0x93e4c8@mhfdat-jp.bin,アメシススワロウ𧶠,
 0x93e4cc@mhfdat-jp.bin,動如雷霆,
-0x93e4d0@mhfdat-jp.bin,ヒュプノサイレンス,
+0x93e4d0@mhfdat-jp.bin,ヒュプノサイレンス,Hypnosilence
 0x93e4d4@mhfdat-jp.bin,ファトス＝アーラ,Ala Fati
 0x93e4d8@mhfdat-jp.bin,ウィタ＝アーラ,Ala Vitae
 0x93e4dc@mhfdat-jp.bin,モルス＝アーラ,Ala Mortis
@@ -5123,9 +5123,9 @@ location,source,target
 0x93e600@mhfdat-jp.bin,エクスデルガード,
 0x93e604@mhfdat-jp.bin,ラピス＝アーラ,Ala Lapidis
 0x93e608@mhfdat-jp.bin,ルーペス＝アーラ,Ala Rupis
-0x93e60c@mhfdat-jp.bin,カリプス＝アーラ,Ala Corporis
-0x93e610@mhfdat-jp.bin,ニゲル・Ｃ・アーラ,Ala Corporis Obscuri
-0x93e614@mhfdat-jp.bin,ニゲル＝カリプス,Corpus Obscurum
+0x93e60c@mhfdat-jp.bin,カリプス＝アーラ,Ala Chalybis
+0x93e610@mhfdat-jp.bin,ニゲル・Ｃ・アーラ,Ala Chalybis Obscuri
+0x93e614@mhfdat-jp.bin,ニゲル＝カリプス,Chalybs Obscurus
 0x93e618@mhfdat-jp.bin,グレンヴァイツ,
 0x93e61c@mhfdat-jp.bin,グレンヴェッヘン,
 0x93e620@mhfdat-jp.bin,グレンヴィーレン,
@@ -5192,11 +5192,11 @@ location,source,target
 0x93e714@mhfdat-jp.bin,ニャンシン【奏】,
 0x93e718@mhfdat-jp.bin,デュエルグーゴー,
 0x93e71c@mhfdat-jp.bin,アクラリーナ,
-0x93e720@mhfdat-jp.bin,アグレオ＝アーラ,
-0x93e724@mhfdat-jp.bin,レベリオ＝アーラ,
-0x93e728@mhfdat-jp.bin,ウルティオ＝アーラ,
-0x93e72c@mhfdat-jp.bin,ニゲル・Ｕ・アーラ,
-0x93e730@mhfdat-jp.bin,ニゲル＝ウルティオ,
+0x93e720@mhfdat-jp.bin,アグレオ＝アーラ,Ala Agoniae
+0x93e724@mhfdat-jp.bin,レベリオ＝アーラ,Ala Rebellionis
+0x93e728@mhfdat-jp.bin,ウルティオ＝アーラ,Ala Ultoris
+0x93e72c@mhfdat-jp.bin,ニゲル・Ｕ・アーラ,Ala Ultoris Obscuri
+0x93e730@mhfdat-jp.bin,ニゲル＝ウルティオ,Ultor Obscurus
 0x93e734@mhfdat-jp.bin,エクエスカピール,
 0x93e738@mhfdat-jp.bin,エクエスカピサ,
 0x93e73c@mhfdat-jp.bin,エクエスカピヨス,
@@ -5425,19 +5425,19 @@ location,source,target
 0x93eab8@mhfdat-jp.bin,鋼鉄製機械重槍,
 0x93eabc@mhfdat-jp.bin,鋼鉄製機械重槍改,
 0x93eac0@mhfdat-jp.bin,特別製機械重槍,
-0x93eac4@mhfdat-jp.bin,ミラージュバンカー,
+0x93eac4@mhfdat-jp.bin,ミラージュバンカー,Mirage Bunker
 0x93eac8@mhfdat-jp.bin,白羊旋槍・氷,
 0x93eacc@mhfdat-jp.bin,白羊旋槍・氷【燦然】,
 0x93ead0@mhfdat-jp.bin,白羊旋槍・氷【絢爛】,
-0x93ead4@mhfdat-jp.bin,アメシスセーピア貤,
-0x93ead8@mhfdat-jp.bin,アメシスセーピア賖,
-0x93eadc@mhfdat-jp.bin,アメシスセーピア賕,
-0x93eae0@mhfdat-jp.bin,アメシスセーピア賙,
-0x93eae4@mhfdat-jp.bin,アメシスセーピア𧶠,
+0x93ead4@mhfdat-jp.bin,アメシスセーピア貤,Amethyst Sepia I
+0x93ead8@mhfdat-jp.bin,アメシスセーピア賖,Amethyst Sepia II
+0x93eadc@mhfdat-jp.bin,アメシスセーピア賕,Amethyst Sepia III
+0x93eae0@mhfdat-jp.bin,アメシスセーピア賙,Amethyst Sepia IV
+0x93eae4@mhfdat-jp.bin,アメシスセーピア𧶠,Amethyst Sepia V
 0x93eae8@mhfdat-jp.bin,サリッサクルンクス,
 0x93eaec@mhfdat-jp.bin,黒狼槍【恐】,
 0x93eaf0@mhfdat-jp.bin,肉球ランス【ご？】,
-0x93eaf4@mhfdat-jp.bin,ナールフォラーズ,
+0x93eaf4@mhfdat-jp.bin,ナールフォラーズ,Flammennarbe
 0x93eaf8@mhfdat-jp.bin,エクエスエンブス,
 0x93eafc@mhfdat-jp.bin,エクエスエンベスト,
 0x93eb00@mhfdat-jp.bin,エクエスエスティーダ,
@@ -5461,19 +5461,19 @@ location,source,target
 0x93eb48@mhfdat-jp.bin,レイネ貤,
 0x93eb4c@mhfdat-jp.bin,レイネ賖,
 0x93eb50@mhfdat-jp.bin,レイネ賕,
-0x93eb54@mhfdat-jp.bin,刻竜剣【猛火】,
-0x93eb58@mhfdat-jp.bin,刻竜剣【止水】,
-0x93eb5c@mhfdat-jp.bin,刻竜剣【落雷】,
-0x93eb60@mhfdat-jp.bin,刻竜剣【咆哮】,
-0x93eb64@mhfdat-jp.bin,刻竜剣【氷結】,
-0x93eb68@mhfdat-jp.bin,刻竜剣【爆炎】,
-0x93eb6c@mhfdat-jp.bin,刻竜剣【流水】,
-0x93eb70@mhfdat-jp.bin,刻竜剣【轟雷】,
-0x93eb74@mhfdat-jp.bin,刻竜剣【逆鱗】,
-0x93eb78@mhfdat-jp.bin,刻竜剣【砕氷】,
-0x93eb7c@mhfdat-jp.bin,レギーナ貤,
-0x93eb80@mhfdat-jp.bin,レギーナ賖,
-0x93eb84@mhfdat-jp.bin,レギーナ賕,
+0x93eb54@mhfdat-jp.bin,刻竜剣【猛火】,"Black Wyvern Blade ""Pyre"""
+0x93eb58@mhfdat-jp.bin,刻竜剣【止水】,"Black Wyvern Blade ""Stream"""
+0x93eb5c@mhfdat-jp.bin,刻竜剣【落雷】,"Black Wyvern Blade ""Strike"""
+0x93eb60@mhfdat-jp.bin,刻竜剣【咆哮】,"Black Wyvern Blade ""Cry"""
+0x93eb64@mhfdat-jp.bin,刻竜剣【氷結】,"Black Wyvern Blade ""Frost"""
+0x93eb68@mhfdat-jp.bin,刻竜剣【爆炎】,"Black Wyvern Blade ""Inferno"""
+0x93eb6c@mhfdat-jp.bin,刻竜剣【流水】,"Black Wyvern Blade ""Flood"""
+0x93eb70@mhfdat-jp.bin,刻竜剣【轟雷】,"Black Wyvern Blade ""Storm"""
+0x93eb74@mhfdat-jp.bin,刻竜剣【逆鱗】,"Black Wyvern Blade ""Wrath"""
+0x93eb78@mhfdat-jp.bin,刻竜剣【砕氷】,"Black Wyvern Blade ""Avalanche"""
+0x93eb7c@mhfdat-jp.bin,レギーナ貤,Regina I
+0x93eb80@mhfdat-jp.bin,レギーナ賖,Regina II
+0x93eb84@mhfdat-jp.bin,レギーナ賕,Regina III
 0x93eb88@mhfdat-jp.bin,刻竜大剣【猛火】,
 0x93eb8c@mhfdat-jp.bin,刻竜大剣【止水】,
 0x93eb90@mhfdat-jp.bin,刻竜大剣【落雷】,
@@ -5556,18 +5556,18 @@ location,source,target
 0x93ecc4@mhfdat-jp.bin,眠鳥究極槌【熟睡】,
 0x93ecc8@mhfdat-jp.bin,眠鳥究極槌【爆睡】,
 0x93eccc@mhfdat-jp.bin,眠鳥究極槌【永眠】,
-0x93ecd0@mhfdat-jp.bin,ヒプノマーチ,
-0x93ecd4@mhfdat-jp.bin,ヒプノセレナーデ,
-0x93ecd8@mhfdat-jp.bin,ヒプノラプソディー,
-0x93ecdc@mhfdat-jp.bin,ヒプノシンフォニー,
-0x93ece0@mhfdat-jp.bin,九九式コルネット,
-0x93ece4@mhfdat-jp.bin,九九式ホルン,
-0x93ece8@mhfdat-jp.bin,九九式サイレン,
-0x93ecec@mhfdat-jp.bin,九九式クラクション,
-0x93ecf0@mhfdat-jp.bin,パラスピア,
-0x93ecf4@mhfdat-jp.bin,パラガオスピア,
-0x93ecf8@mhfdat-jp.bin,パラアビス,
-0x93ecfc@mhfdat-jp.bin,パラエミティーフェ,
+0x93ecd0@mhfdat-jp.bin,ヒプノマーチ,Hypnotic March
+0x93ecd4@mhfdat-jp.bin,ヒプノセレナーデ,Hypnotic Serenade
+0x93ecd8@mhfdat-jp.bin,ヒプノラプソディー,Hypnotic Rhapsody
+0x93ecdc@mhfdat-jp.bin,ヒプノシンフォニー,Hypnotic Symphony
+0x93ece0@mhfdat-jp.bin,九九式コルネット,Type 99 Cornet
+0x93ece4@mhfdat-jp.bin,九九式ホルン,Type 99 Horn
+0x93ece8@mhfdat-jp.bin,九九式サイレン,Type 99 Siren
+0x93ecec@mhfdat-jp.bin,九九式クラクション,Type 99 Klaxon
+0x93ecf0@mhfdat-jp.bin,パラスピア,Paraspear
+0x93ecf4@mhfdat-jp.bin,パラガオスピア,Paralytic Lance
+0x93ecf8@mhfdat-jp.bin,パラアビス,Paralytic Abyss
+0x93ecfc@mhfdat-jp.bin,パラエミティーフェ,Paralytic Void
 0x93ed00@mhfdat-jp.bin,ディアシュトゥルム,
 0x93ed04@mhfdat-jp.bin,ディアアングリフ,
 0x93ed08@mhfdat-jp.bin,ディアペルセニル,
@@ -5634,11 +5634,11 @@ location,source,target
 0x93edfc@mhfdat-jp.bin,トコヤミキリ,
 0x93ee00@mhfdat-jp.bin,パギュールデルニエ,
 0x93ee04@mhfdat-jp.bin,コルトティラドール,
-0x93ee08@mhfdat-jp.bin,アエル＝アーラ,
-0x93ee0c@mhfdat-jp.bin,プロケラ＝アーラ,
-0x93ee10@mhfdat-jp.bin,ニンブス＝アーラ,
-0x93ee14@mhfdat-jp.bin,ニゲル・Ｎ・アーラ,
-0x93ee18@mhfdat-jp.bin,ニゲル＝ニンブス,
+0x93ee08@mhfdat-jp.bin,アエル＝アーラ,Ala Aeris
+0x93ee0c@mhfdat-jp.bin,プロケラ＝アーラ,Ala Procellae
+0x93ee10@mhfdat-jp.bin,ニンブス＝アーラ,Ala Nimbi
+0x93ee14@mhfdat-jp.bin,ニゲル・Ｎ・アーラ,Ala Nimbi Obscuri
+0x93ee18@mhfdat-jp.bin,ニゲル＝ニンブス,Nimbus Obscurus
 0x93ee1c@mhfdat-jp.bin,クックデュアル【亜】,
 0x93ee20@mhfdat-jp.bin,クックデュアル【変】,
 0x93ee24@mhfdat-jp.bin,クックデュアル【剛】,
@@ -5950,24 +5950,24 @@ location,source,target
 0x93f2ec@mhfdat-jp.bin,トレンチガンランス,
 0x93f2f0@mhfdat-jp.bin,スティルファンタズマ,
 0x93f2f4@mhfdat-jp.bin,トライブレイズ,
-0x93f2f8@mhfdat-jp.bin,カリバーンＦ,
-0x93f2fc@mhfdat-jp.bin,グラシエ＝アーラSP貤,Ala Grata SP貤
-0x93f300@mhfdat-jp.bin,グラシエ＝アーラSP賖,Ala Grata SP賖
-0x93f304@mhfdat-jp.bin,グラシエ＝アーラSP賕,Ala Grata SP賕
-0x93f308@mhfdat-jp.bin,グラシエ＝アーラSP賙,Ala Grata SP賙
-0x93f30c@mhfdat-jp.bin,グラシエ＝アーラSP𧶠,Ala Grata SP𧶠
-0x93f310@mhfdat-jp.bin,グラシエ＝アーラSP賰,Ala Grata SP賰
-0x93f314@mhfdat-jp.bin,グラシエ＝アーラSP賱,Ala Grata SP賱
-0x93f318@mhfdat-jp.bin,スリープフェザー,
-0x93f31c@mhfdat-jp.bin,スランバーフェザー,
-0x93f320@mhfdat-jp.bin,レストフェザー,
-0x93f324@mhfdat-jp.bin,フォールフェザー,
-0x93f328@mhfdat-jp.bin,ねこ手【強賊】,
-0x93f32c@mhfdat-jp.bin,ヒプノ＝エクスマキナ,
-0x93f330@mhfdat-jp.bin,ムーディーナイト,
+0x93f2f8@mhfdat-jp.bin,カリバーンＦ,Caliburn F
+0x93f2fc@mhfdat-jp.bin,グラシエ＝アーラSP貤,Ala Glaciei SP-I
+0x93f300@mhfdat-jp.bin,グラシエ＝アーラSP賖,Ala Glaciei SP-II
+0x93f304@mhfdat-jp.bin,グラシエ＝アーラSP賕,Ala Glaciei SP-III
+0x93f308@mhfdat-jp.bin,グラシエ＝アーラSP賙,Ala Glaciei SP-IV
+0x93f30c@mhfdat-jp.bin,グラシエ＝アーラSP𧶠,Ala Glaciei SP-V
+0x93f310@mhfdat-jp.bin,グラシエ＝アーラSP賰,Ala Glaciei SP-VI
+0x93f314@mhfdat-jp.bin,グラシエ＝アーラSP賱,Ala Glaciei SP-VII
+0x93f318@mhfdat-jp.bin,スリープフェザー,Sleep Feather
+0x93f31c@mhfdat-jp.bin,スランバーフェザー,Slumber Feather
+0x93f320@mhfdat-jp.bin,レストフェザー,Torpor Feather
+0x93f324@mhfdat-jp.bin,フォールフェザー,Unwaking Feather
+0x93f328@mhfdat-jp.bin,ねこ手【強賊】,Night Cat
+0x93f32c@mhfdat-jp.bin,ヒプノ＝エクスマキナ,Hypno Ex Machina
+0x93f330@mhfdat-jp.bin,ムーディーナイト,Moody Night
 0x93f334@mhfdat-jp.bin,スリプラピック,
 0x93f338@mhfdat-jp.bin,メラルーウィジェット,
-0x93f33c@mhfdat-jp.bin,クッククック,
+0x93f33c@mhfdat-jp.bin,クッククック,Kut-Kut-Ku-Ku
 0x93f340@mhfdat-jp.bin,獅子王剣・火,
 0x93f344@mhfdat-jp.bin,獅子王剣・火【燦然】,
 0x93f348@mhfdat-jp.bin,獅子王剣・火【絢爛】,
@@ -6086,11 +6086,11 @@ location,source,target
 0x93f50c@mhfdat-jp.bin,ラッヘ・クリンゲ,
 0x93f510@mhfdat-jp.bin,ジーク・レベル,
 0x93f514@mhfdat-jp.bin,グランツ・レベル,
-0x93f518@mhfdat-jp.bin,ミレス＝アーラ,
-0x93f51c@mhfdat-jp.bin,レギナ＝アーラ,
-0x93f520@mhfdat-jp.bin,レクス＝アーラ,
-0x93f524@mhfdat-jp.bin,ニゲル・Ｒ・アーラ,
-0x93f528@mhfdat-jp.bin,ニゲル＝レクス,
+0x93f518@mhfdat-jp.bin,ミレス＝アーラ,Ala Militis
+0x93f51c@mhfdat-jp.bin,レギナ＝アーラ,Ala Reginae
+0x93f520@mhfdat-jp.bin,レクス＝アーラ,Ala Regis
+0x93f524@mhfdat-jp.bin,ニゲル・Ｒ・アーラ,Ala Regis Obscuri
+0x93f528@mhfdat-jp.bin,ニゲル＝レクス,Rex Obscurus
 0x93f52c@mhfdat-jp.bin,波光乃太刀,
 0x93f530@mhfdat-jp.bin,波光乃太刀【暴】,
 0x93f534@mhfdat-jp.bin,波光乃太刀【荒】,
@@ -6164,9 +6164,9 @@ location,source,target
 0x93f644@mhfdat-jp.bin,バルツァー・クリンゲ,
 0x93f648@mhfdat-jp.bin,エーデル・レベル,
 0x93f64c@mhfdat-jp.bin,ファイン・レベル,
-0x93f650@mhfdat-jp.bin,プレケス＝アーラ,
-0x93f654@mhfdat-jp.bin,ニゲル・Ｐ・アーラ,
-0x93f658@mhfdat-jp.bin,ニゲル＝プレケス,
+0x93f650@mhfdat-jp.bin,プレケス＝アーラ,Ala Precum
+0x93f654@mhfdat-jp.bin,ニゲル・Ｐ・アーラ,Ala Precum Obscurarum
+0x93f658@mhfdat-jp.bin,ニゲル＝プレケス,Precatio Obscura
 0x93f65c@mhfdat-jp.bin,ブラッドメロディ,
 0x93f660@mhfdat-jp.bin,ブラッドソング,
 0x93f664@mhfdat-jp.bin,ブラッドポエム,
@@ -6784,11 +6784,11 @@ location,source,target
 0x93fff4@mhfdat-jp.bin,撃竜槍【明王】,
 0x93fff8@mhfdat-jp.bin,雷槍【トヨフツ】,
 0x93fffc@mhfdat-jp.bin,アカムスウォーン,
-0x940000@mhfdat-jp.bin,アルカ＝アーラ,
-0x940004@mhfdat-jp.bin,ハワ＝アーラ,
-0x940008@mhfdat-jp.bin,アダム＝アーラ,
-0x94000c@mhfdat-jp.bin,ニゲル・Ａ・アーラ,
-0x940010@mhfdat-jp.bin,ニゲル＝アダム,
+0x940000@mhfdat-jp.bin,アルカ＝アーラ,Ala Arcus
+0x940004@mhfdat-jp.bin,ハワ＝アーラ,Ala Hevae
+0x940008@mhfdat-jp.bin,アダム＝アーラ,Ala Adami　
+0x94000c@mhfdat-jp.bin,ニゲル・Ａ・アーラ,Ala Adami Obscuri
+0x940010@mhfdat-jp.bin,ニゲル＝アダム,Adamus Obscurus
 0x940014@mhfdat-jp.bin,緋骨銃槍,
 0x940018@mhfdat-jp.bin,緋骨銃槍【勇気】,
 0x94001c@mhfdat-jp.bin,緋骨銃槍【勇敢】,
@@ -6914,7 +6914,7 @@ location,source,target
 0x9401fc@mhfdat-jp.bin,ルビーノスワロウ賰,
 0x940200@mhfdat-jp.bin,スティールスワロウ賰,
 0x940204@mhfdat-jp.bin,アイスブランド,
-0x940208@mhfdat-jp.bin,ナールイウサール,
+0x940208@mhfdat-jp.bin,ナールイウサール,Brandopfnarbe
 0x94020c@mhfdat-jp.bin,ダミー,
 0x940210@mhfdat-jp.bin,ダミー,
 0x940214@mhfdat-jp.bin,ダミー,
@@ -8884,8 +8884,8 @@ location,source,target
 0x9420c4@mhfdat-jp.bin,ノーブルモート,
 0x9420c8@mhfdat-jp.bin,ノーブルモロット,
 0x9420cc@mhfdat-jp.bin,アスールスフィール,
-0x9420d0@mhfdat-jp.bin,ねこ手【豪賊】,
-0x9420d4@mhfdat-jp.bin,ねこ手【大怪盗】,
+0x9420d0@mhfdat-jp.bin,ねこ手【豪賊】,Bandicat
+0x9420d4@mhfdat-jp.bin,ねこ手【大怪盗】,Morgana
 0x9420d8@mhfdat-jp.bin,羽子板ソード【我欲】,
 0x9420dc@mhfdat-jp.bin,羽子板ソード【大食】,
 0x9420e0@mhfdat-jp.bin,ツイン羽子板【淑】,
@@ -9040,7 +9040,7 @@ location,source,target
 0x942334@mhfdat-jp.bin,トラグ・エスカー,
 0x942338@mhfdat-jp.bin,トラグ・セール,
 0x94233c@mhfdat-jp.bin,トラグ・フェーン,
-0x942340@mhfdat-jp.bin,トラグ・アーラ,
+0x942340@mhfdat-jp.bin,トラグ・アーラ,Ala Tragoediae
 0x942344@mhfdat-jp.bin,トラグ・ローク,
 0x942348@mhfdat-jp.bin,トラグ・ヴァルカン,
 0x94234c@mhfdat-jp.bin,トラグ・メーネ,
@@ -10693,21 +10693,21 @@ location,source,target
 0x943d08@mhfdat-jp.bin,ブロンズセレモニー,
 0x943d0c@mhfdat-jp.bin,ブロンズフェスタ,
 0x943d10@mhfdat-jp.bin,ダミー,
-0x943d14@mhfdat-jp.bin,グァーグァーグーク貤,
-0x943d18@mhfdat-jp.bin,グァーグァーグーク賖,
-0x943d1c@mhfdat-jp.bin,ダミー,
-0x943d20@mhfdat-jp.bin,グァーグァーグーク賕,
-0x943d24@mhfdat-jp.bin,グァーグァーグーク賙,
-0x943d28@mhfdat-jp.bin,ワァーワァーグーク貤,
-0x943d2c@mhfdat-jp.bin,ワァーワァーグーク賖,
-0x943d30@mhfdat-jp.bin,ダミー,
-0x943d34@mhfdat-jp.bin,ワァーワァーグーク賕,
-0x943d38@mhfdat-jp.bin,ワァーワァーグーク賙,
-0x943d3c@mhfdat-jp.bin,ガァーガァーグーク貤,
-0x943d40@mhfdat-jp.bin,ガァーガァーグーク賖,
-0x943d44@mhfdat-jp.bin,ダミー,
-0x943d48@mhfdat-jp.bin,ガァーガァーグーク賕,
-0x943d4c@mhfdat-jp.bin,ガァーガァーグーク賙,
+0x943d14@mhfdat-jp.bin,グァーグァーグーク貤,Gwah-Gwah Goocoo Ⅰ
+0x943d18@mhfdat-jp.bin,グァーグァーグーク賖,Gwah-Gwah Goocoo Ⅱ
+0x943d1c@mhfdat-jp.bin,ダミー,DUMMY 943D14
+0x943d20@mhfdat-jp.bin,グァーグァーグーク賕,Gwah-Gwah Goocoo Ⅲ
+0x943d24@mhfdat-jp.bin,グァーグァーグーク賙,Gwah-Gwah Goocoo Ⅳ
+0x943d28@mhfdat-jp.bin,ワァーワァーグーク貤,Wah-Wah Goocoo Ⅰ
+0x943d2c@mhfdat-jp.bin,ワァーワァーグーク賖,Wah-Wah Goocoo Ⅱ
+0x943d30@mhfdat-jp.bin,ダミー,DUMMY 943D30
+0x943d34@mhfdat-jp.bin,ワァーワァーグーク賕,Wah-Wah Goocoo Ⅲ
+0x943d38@mhfdat-jp.bin,ワァーワァーグーク賙,Wah-Wah Goocoo Ⅳ
+0x943d3c@mhfdat-jp.bin,ガァーガァーグーク貤,Gawk-Gawk Goocoo Ⅰ
+0x943d40@mhfdat-jp.bin,ガァーガァーグーク賖,Gawk-Gawk Goocoo Ⅱ
+0x943d44@mhfdat-jp.bin,ダミー,DUMMY 943D44
+0x943d48@mhfdat-jp.bin,ガァーガァーグーク賕,Gawk-Gawk Goocoo Ⅲ
+0x943d4c@mhfdat-jp.bin,ガァーガァーグーク賙,Gawk-Gawk Goocoo Ⅳ
 0x943d50@mhfdat-jp.bin,双刀若君,
 0x943d54@mhfdat-jp.bin,双刀主君,
 0x943d58@mhfdat-jp.bin,双刀大君,
@@ -11011,12 +11011,12 @@ location,source,target
 0x944200@mhfdat-jp.bin,駐屯兵団・半刃刀身賰,
 0x944204@mhfdat-jp.bin,テルマエ・ロマエ賖,
 0x944208@mhfdat-jp.bin,テルマエ・ロマエＧ,
-0x94420c@mhfdat-jp.bin,グァーグァーグーク𧶠,
-0x944210@mhfdat-jp.bin,グァーグァーグーク賰,
-0x944214@mhfdat-jp.bin,ワァーワァーグーク𧶠,
-0x944218@mhfdat-jp.bin,ワァーワァーグーク賰,
-0x94421c@mhfdat-jp.bin,ガァーガァーグーク𧶠,
-0x944220@mhfdat-jp.bin,ガァーガァーグーク賰,
+0x94420c@mhfdat-jp.bin,グァーグァーグーク𧶠,Gwah-Gwah Goocoo Ⅴ
+0x944210@mhfdat-jp.bin,グァーグァーグーク賰,Gwah-Gwah Goocoo Ⅵ
+0x944214@mhfdat-jp.bin,ワァーワァーグーク𧶠,Wah-Wah Goocoo Ⅴ
+0x944218@mhfdat-jp.bin,ワァーワァーグーク賰,Wah-Wah Goocoo Ⅵ
+0x94421c@mhfdat-jp.bin,ガァーガァーグーク𧶠,Gawk-Gawk Goocoo Ⅴ
+0x944220@mhfdat-jp.bin,ガァーガァーグーク賰,Gawk-Gawk Goocoo Ⅵ
 0x944224@mhfdat-jp.bin,英雄の証【第一楽章】,
 0x944228@mhfdat-jp.bin,英雄の証【第二楽章】,
 0x94422c@mhfdat-jp.bin,英雄の証【第三楽章】,
@@ -11560,7 +11560,7 @@ location,source,target
 0x944a94@mhfdat-jp.bin,セリスィ・エスカー,
 0x944a98@mhfdat-jp.bin,セリスィ・セール,
 0x944a9c@mhfdat-jp.bin,セリスィ・フェーン,
-0x944aa0@mhfdat-jp.bin,セリスィ・アーラ,
+0x944aa0@mhfdat-jp.bin,セリスィ・アーラ,Ala Caeli
 0x944aa4@mhfdat-jp.bin,セリスィ・メーネ,
 0x944aa8@mhfdat-jp.bin,セリスィ・コーダ,
 0x944aac@mhfdat-jp.bin,セリスィ・ローク,
@@ -12419,21 +12419,21 @@ location,source,target
 0x945800@mhfdat-jp.bin,ガルバガスト,
 0x945804@mhfdat-jp.bin,ガルバネード,
 0x945808@mhfdat-jp.bin,ガルバストム,
-0x94580c@mhfdat-jp.bin,ぴーひゃらグーク,
-0x945810@mhfdat-jp.bin,ぴーひゃらグーク・戯,
-0x945814@mhfdat-jp.bin,ぴーひゃらグーク・楽,
-0x945818@mhfdat-jp.bin,ぴーひゃらグーク・喜,
-0x94581c@mhfdat-jp.bin,おまつりグーク・熱狂,
+0x94580c@mhfdat-jp.bin,ぴーひゃらグーク,Goocoo Whistle
+0x945810@mhfdat-jp.bin,ぴーひゃらグーク・戯,Playful Goocoo Whistle
+0x945814@mhfdat-jp.bin,ぴーひゃらグーク・楽,Comforting Goocoo Whistle
+0x945818@mhfdat-jp.bin,ぴーひゃらグーク・喜,Joyous Goocoo Whistle
+0x94581c@mhfdat-jp.bin,おまつりグーク・熱狂,Sonorous Goocoo Festival
 0x945820@mhfdat-jp.bin,フィアーエスク,
 0x945824@mhfdat-jp.bin,フィアーモルテ,
 0x945828@mhfdat-jp.bin,フィアーステルク,
 0x94582c@mhfdat-jp.bin,フィアーエスタ,
 0x945830@mhfdat-jp.bin,スペクタル＝バウラ,
-0x945834@mhfdat-jp.bin,しろしろ【ワンワン】,
-0x945838@mhfdat-jp.bin,しろしろ【ガオガオ】,
-0x94583c@mhfdat-jp.bin,しろしろ【クゥーン】,
-0x945840@mhfdat-jp.bin,しろしろ【ペロペロ】,
-0x945844@mhfdat-jp.bin,しろしろ【バウワウ】,
+0x945834@mhfdat-jp.bin,しろしろ【ワンワン】,Barking Shiroshiro
+0x945838@mhfdat-jp.bin,しろしろ【ガオガオ】,Growling Shiroshiro
+0x94583c@mhfdat-jp.bin,しろしろ【クゥーン】,Whimpering Shiroshiro
+0x945840@mhfdat-jp.bin,しろしろ【ペロペロ】,Licking Shiroshiro
+0x945844@mhfdat-jp.bin,しろしろ【バウワウ】,Bow-Wow Shiroshiro
 0x945848@mhfdat-jp.bin,キショウマペット,
 0x94584c@mhfdat-jp.bin,キショウレプリカ,
 0x945850@mhfdat-jp.bin,快眠アーティファクト,
@@ -13655,7 +13655,7 @@ location,source,target
 0x946b50@mhfdat-jp.bin,金棍オデス,
 0x946b54@mhfdat-jp.bin,金砕棍グラン・オデス,
 0x946b58@mhfdat-jp.bin,改トラグ・セール,
-0x946b5c@mhfdat-jp.bin,改トラグ・アーラ,
+0x946b5c@mhfdat-jp.bin,改トラグ・アーラ,Ala Tragoediae＋
 0x946b60@mhfdat-jp.bin,改トラグ・ヴァルカン,
 0x946b64@mhfdat-jp.bin,改トラグ・メーネ,
 0x946b68@mhfdat-jp.bin,改トラグ・コーダ,
@@ -13951,8 +13951,8 @@ location,source,target
 0x946ff0@mhfdat-jp.bin,コーレスコトス,
 0x946ff4@mhfdat-jp.bin,コーレドゥンケル,
 0x946ff8@mhfdat-jp.bin,ジェビアバオシン,
-0x946ffc@mhfdat-jp.bin,ローゼンアカンタ,
-0x947000@mhfdat-jp.bin,フェザーツェクリ,
+0x946ffc@mhfdat-jp.bin,ローゼンアカンタ,Rosenacanta
+0x947000@mhfdat-jp.bin,フェザーツェクリ,Feather Tsekouri
 0x947004@mhfdat-jp.bin,大蛇ノ剣斧,
 0x947008@mhfdat-jp.bin,大蛇ノ剣斧【燦然】,
 0x94700c@mhfdat-jp.bin,大蛇ノ剣斧【絢爛】,
@@ -14132,11 +14132,11 @@ location,source,target
 0x9472c4@mhfdat-jp.bin,幻雷神刀【幻怪】,
 0x9472c8@mhfdat-jp.bin,幻雷神銃槍【幻世】,
 0x9472cc@mhfdat-jp.bin,幻雷神鎚【幻惑】,
-0x9472d0@mhfdat-jp.bin,ブルエール＝アーラ,
-0x9472d4@mhfdat-jp.bin,ルルエール＝アーラ,
-0x9472d8@mhfdat-jp.bin,フルゴール＝アーラ,
-0x9472dc@mhfdat-jp.bin,グラミール＝アーラ,
-0x9472e0@mhfdat-jp.bin,ランヴォール＝アーラ,
+0x9472d0@mhfdat-jp.bin,ブルエール＝アーラ,Aculeus Alae Purae
+0x9472d4@mhfdat-jp.bin,ルルエール＝アーラ,Arma Alae Purae
+0x9472d8@mhfdat-jp.bin,フルゴール＝アーラ,Lancea Alae Purae
+0x9472dc@mhfdat-jp.bin,グラミール＝アーラ,Tormentum Alae Purae
+0x9472e0@mhfdat-jp.bin,ランヴォール＝アーラ,Instrumentum Alae Purae
 0x9472e4@mhfdat-jp.bin,獄剣リュウリン,
 0x9472e8@mhfdat-jp.bin,獄剣リュウリン改,
 0x9472ec@mhfdat-jp.bin,狼牙剣【欲獄】,
@@ -14258,26 +14258,26 @@ location,source,target
 0x9474bc@mhfdat-jp.bin,磁界ノ王ヲ征ス鎚,
 0x9474c0@mhfdat-jp.bin,磁界ノ王ヲ征ス穿龍棍,
 0x9474c4@mhfdat-jp.bin,チャチャブアイルー,
-0x9474c8@mhfdat-jp.bin,ダミー,
-0x9474cc@mhfdat-jp.bin,ベータナイフ【2016】,
+0x9474c8@mhfdat-jp.bin,ダミー,DUMMY 9474C8
+0x9474cc@mhfdat-jp.bin,ベータナイフ【2016】,Beta Knife [2016]
 0x9474d0@mhfdat-jp.bin,シュヴァン,
-0x9474d4@mhfdat-jp.bin,ダミー,
+0x9474d4@mhfdat-jp.bin,ダミー,DUMMY 9474D4
 0x9474d8@mhfdat-jp.bin,歌紡ノ斧【無華】,
 0x9474dc@mhfdat-jp.bin,歌紡ノ斧【響華】,
 0x9474e0@mhfdat-jp.bin,歌紡ノ斧【光華】,
 0x9474e4@mhfdat-jp.bin,歌紡ノ斧【氷華】,
 0x9474e8@mhfdat-jp.bin,水流ヲ覇スル雷師ノ斧,
-0x9474ec@mhfdat-jp.bin,ダミー,
+0x9474ec@mhfdat-jp.bin,ダミー,DUMMY 9474EC
 0x9474f0@mhfdat-jp.bin,ペッツェーノ,
-0x9474f4@mhfdat-jp.bin,クリダール＝アーラ,
-0x9474f8@mhfdat-jp.bin,ダミー,
-0x9474fc@mhfdat-jp.bin,ダミー,
+0x9474f4@mhfdat-jp.bin,クリダール＝アーラ,Ala Cliduchi
+0x9474f8@mhfdat-jp.bin,ダミー,DUMMY 9474F8
+0x9474fc@mhfdat-jp.bin,ダミー,DUMMY 9474FC
 0x947500@mhfdat-jp.bin,月々灯【新月】,
 0x947504@mhfdat-jp.bin,月々灯【三日月】,
 0x947508@mhfdat-jp.bin,月々灯【満月】,
-0x94750c@mhfdat-jp.bin,メリクリ・ウッド,
-0x947510@mhfdat-jp.bin,メリクリ・ツリー,
-0x947514@mhfdat-jp.bin,メリクリ・スター,
+0x94750c@mhfdat-jp.bin,メリクリ・ウッド,Holiday Wood
+0x947510@mhfdat-jp.bin,メリクリ・ツリー,Holiday Tree
+0x947514@mhfdat-jp.bin,メリクリ・スター,Holiday Star
 0x947518@mhfdat-jp.bin,最終兵器・丸太槌貤,
 0x94751c@mhfdat-jp.bin,最終兵器・丸太槌賖,
 0x947520@mhfdat-jp.bin,最終兵器・丸太槌賕,
@@ -14335,11 +14335,11 @@ location,source,target
 0x9475f0@mhfdat-jp.bin,改セリスィ・セール,
 0x9475f4@mhfdat-jp.bin,改セリスィ・メーネ,
 0x9475f8@mhfdat-jp.bin,改セリスィ・コーダ,
-0x9475fc@mhfdat-jp.bin,改セリスィ・アーラ,
+0x9475fc@mhfdat-jp.bin,改セリスィ・アーラ,Ala Caeli＋
 0x947600@mhfdat-jp.bin,ヴォーラアックス,
-0x947604@mhfdat-jp.bin,ダーインスレイヴ,
-0x947608@mhfdat-jp.bin,魔剣ダーインスレイヴ,
-0x94760c@mhfdat-jp.bin,ダミー,
+0x947604@mhfdat-jp.bin,ダーインスレイヴ,Dainsleif
+0x947608@mhfdat-jp.bin,魔剣ダーインスレイヴ,True Dainsleif
+0x94760c@mhfdat-jp.bin,ダミー,DUMMY 94760C
 0x947610@mhfdat-jp.bin,炎斧【撃砕】,
 0x947614@mhfdat-jp.bin,雷斧【統属】,
 0x947618@mhfdat-jp.bin,痺斧【異趣】,
@@ -14591,7 +14591,7 @@ location,source,target
 0x9479f0@mhfdat-jp.bin,ブラージュラビナ,
 0x9479f4@mhfdat-jp.bin,ブラージュグレル,
 0x9479f8@mhfdat-jp.bin,ドドブラン・ベルク,
-0x9479fc@mhfdat-jp.bin,改セリスィ・エスカー,
+0x9479fc@mhfdat-jp.bin,改セリスィ・エスカー,＋
 0x947a00@mhfdat-jp.bin,改セリスィ・ヴァルン,
 0x947a04@mhfdat-jp.bin,改セリスィ・ローク,
 0x947a08@mhfdat-jp.bin,改セリスィ・イザーム,
@@ -14694,9 +14694,9 @@ location,source,target
 0x947b8c@mhfdat-jp.bin,真大鎧鎚【戒】,
 0x947b90@mhfdat-jp.bin,真大鎧鎚【絶】,
 0x947b94@mhfdat-jp.bin,トラグ・カンツォ,
-0x947b98@mhfdat-jp.bin,改トラグ・カンツォ,
+0x947b98@mhfdat-jp.bin,改トラグ・カンツォ,＋
 0x947b9c@mhfdat-jp.bin,セリスィ・カンツォ,
-0x947ba0@mhfdat-jp.bin,改セリスィ・カンツォ,
+0x947ba0@mhfdat-jp.bin,改セリスィ・カンツォ,＋
 0x947ba4@mhfdat-jp.bin,ダミー,
 0x947ba8@mhfdat-jp.bin,ダミー,
 0x947bac@mhfdat-jp.bin,焔嶽龍ノ大剣,
@@ -14771,7 +14771,7 @@ location,source,target
 0x947cc0@mhfdat-jp.bin,最淵槍帝水【煌然】,
 0x947cc4@mhfdat-jp.bin,アンフィニヒナフェス,
 0x947cc8@mhfdat-jp.bin,アイシンアムール,
-0x947ccc@mhfdat-jp.bin,ねこ手【超怪盗】,
+0x947ccc@mhfdat-jp.bin,ねこ手【超怪盗】,Morgana+
 0x947cd0@mhfdat-jp.bin,絶極光剣Ｇ−ＴＵＮＥ,
 0x947cd4@mhfdat-jp.bin,激怒怒怒スパライズ,
 0x947cd8@mhfdat-jp.bin,ペイセイ・クール,
@@ -15713,12 +15713,12 @@ location,source,target
 0x948b78@mhfdat-jp.bin,モンドレ・クエルクス,
 0x948b7c@mhfdat-jp.bin,モズドルムクエルクス,
 0x948b80@mhfdat-jp.bin,モルデカイクエルクス,
-0x948b84@mhfdat-jp.bin,入刀グーク【入場】,
-0x948b88@mhfdat-jp.bin,入刀グーク【挨拶】,
-0x948b8c@mhfdat-jp.bin,入刀グーク【紹介】,
-0x948b90@mhfdat-jp.bin,入刀グーク【乾杯】,
-0x948b94@mhfdat-jp.bin,入刀グーク【入刀】,
-0x948b98@mhfdat-jp.bin,入刀グークグワワッ！,
+0x948b84@mhfdat-jp.bin,入刀グーク【入場】,"Goocoo's ""Hello!"""
+0x948b88@mhfdat-jp.bin,入刀グーク【挨拶】,"Goocoo's ""Nice to meet you!"""
+0x948b8c@mhfdat-jp.bin,入刀グーク【紹介】,"Goocoo's ""Let's be friends!"""
+0x948b90@mhfdat-jp.bin,入刀グーク【乾杯】,"Goocoo's ""Cheers!"""
+0x948b94@mhfdat-jp.bin,入刀グーク【入刀】,"Goocoo's ""Time for Cake!"""
+0x948b98@mhfdat-jp.bin,入刀グークグワワッ！,"Goocoo's ""Goowawah!"""
 0x948b9c@mhfdat-jp.bin,ササ姫さまの願い,
 0x948ba0@mhfdat-jp.bin,ササ姫さまの極み,
 0x948ba4@mhfdat-jp.bin,煉舞ノ双剣【山入】,
@@ -16227,10 +16227,10 @@ location,source,target
 0x949380@mhfdat-jp.bin,ゼーゲ・ワンデム,
 0x949384@mhfdat-jp.bin,ウィッシュマスター,
 0x949388@mhfdat-jp.bin,ヘッディングノース,
-0x94938c@mhfdat-jp.bin,パッカリグーク,
-0x949390@mhfdat-jp.bin,パッカリグークグワ！,
-0x949394@mhfdat-jp.bin,パックリグーク,
-0x949398@mhfdat-jp.bin,パックリグークグワ！,
+0x94938c@mhfdat-jp.bin,パッカリグーク,Crackling Goocoo
+0x949390@mhfdat-jp.bin,パッカリグークグワ！,"Crackling Goocoo ""GOOWA!"""
+0x949394@mhfdat-jp.bin,パックリグーク,Popping Goocoo
+0x949398@mhfdat-jp.bin,パックリグークグワ！,"Popping Goocoo ""GOOWA!"""
 0x94939c@mhfdat-jp.bin,試作型磁斬槌−α,
 0x9493a0@mhfdat-jp.bin,試作型磁斬鎚−β,
 0x9493a4@mhfdat-jp.bin,ハリネ・イーラ,
@@ -16307,98 +16307,98 @@ location,source,target
 0x9494c0@mhfdat-jp.bin,岩漿鎧剣斧アメジー,
 0x9494c4@mhfdat-jp.bin,岩漿鎧剣斧エメルド,
 0x9494c8@mhfdat-jp.bin,岩漿鎧剣斧アンドラス,
-0x9494cc@mhfdat-jp.bin,キョロキョログーク貤,
-0x9494d0@mhfdat-jp.bin,キョロキョログーク賖,
-0x9494d4@mhfdat-jp.bin,キョロキョログーク賕,
-0x9494d8@mhfdat-jp.bin,キョロキョログーク賙,
-0x9494dc@mhfdat-jp.bin,キョロキョログーク賰,
-0x9494e0@mhfdat-jp.bin,キョロキョログーク賱,
-0x9494e4@mhfdat-jp.bin,ワイワイグーク貤,
-0x9494e8@mhfdat-jp.bin,ワイワイグーク賖,
-0x9494ec@mhfdat-jp.bin,ワイワイグーク賕,
-0x9494f0@mhfdat-jp.bin,ワイワイグーク賙,
-0x9494f4@mhfdat-jp.bin,ワイワイグーク賰,
-0x9494f8@mhfdat-jp.bin,ワイワイグーク賱,
-0x9494fc@mhfdat-jp.bin,ピャーピャーグーク貤,
-0x949500@mhfdat-jp.bin,ピャーピャーグーク賖,
-0x949504@mhfdat-jp.bin,ピャーピャーグーク賕,
-0x949508@mhfdat-jp.bin,ピャーピャーグーク賙,
-0x94950c@mhfdat-jp.bin,ピャーピャーグーク賰,
-0x949510@mhfdat-jp.bin,ピャーピャーグーク賱,
-0x949514@mhfdat-jp.bin,ギャオギャオグーク貤,
-0x949518@mhfdat-jp.bin,ギャオギャオグーク賖,
-0x94951c@mhfdat-jp.bin,ギャオギャオグーク賕,
-0x949520@mhfdat-jp.bin,ギャオギャオグーク賙,
-0x949524@mhfdat-jp.bin,ギャオギャオグーク賰,
-0x949528@mhfdat-jp.bin,ギャオギャオグーク賱,
-0x94952c@mhfdat-jp.bin,ギャアギャアグーク貤,
-0x949530@mhfdat-jp.bin,ギャアギャアグーク賖,
-0x949534@mhfdat-jp.bin,ギャアギャアグーク賕,
-0x949538@mhfdat-jp.bin,ギャアギャアグーク賙,
-0x94953c@mhfdat-jp.bin,ギャアギャアグーク賰,
-0x949540@mhfdat-jp.bin,ギャアギャアグーク賱,
-0x949544@mhfdat-jp.bin,ヒャーヒャーグーク貤,
-0x949548@mhfdat-jp.bin,ヒャーヒャーグーク賖,
-0x94954c@mhfdat-jp.bin,ヒャーヒャーグーク賕,
-0x949550@mhfdat-jp.bin,ヒャーヒャーグーク賙,
-0x949554@mhfdat-jp.bin,ヒャーヒャーグーク賰,
-0x949558@mhfdat-jp.bin,ヒャーヒャーグーク賱,
-0x94955c@mhfdat-jp.bin,クエックエッグーク貤,
-0x949560@mhfdat-jp.bin,クエックエッグーク賖,
-0x949564@mhfdat-jp.bin,クエックエッグーク賕,
-0x949568@mhfdat-jp.bin,クエックエッグーク賙,
-0x94956c@mhfdat-jp.bin,クエックエッグーク賰,
-0x949570@mhfdat-jp.bin,クエックエッグーク賱,
-0x949574@mhfdat-jp.bin,クカカカカグーク貤,
-0x949578@mhfdat-jp.bin,クカカカカグーク賖,
-0x94957c@mhfdat-jp.bin,クカカカカグーク賕,
-0x949580@mhfdat-jp.bin,クカカカカグーク賙,
-0x949584@mhfdat-jp.bin,クカカカカグーク賰,
-0x949588@mhfdat-jp.bin,クカカカカグーク賱,
-0x94958c@mhfdat-jp.bin,キョエキョエグーク貤,
-0x949590@mhfdat-jp.bin,キョエキョエグーク賖,
-0x949594@mhfdat-jp.bin,キョエキョエグーク賕,
-0x949598@mhfdat-jp.bin,キョエキョエグーク賙,
-0x94959c@mhfdat-jp.bin,キョエキョエグーク賰,
-0x9495a0@mhfdat-jp.bin,キョエキョエグーク賱,
-0x9495a4@mhfdat-jp.bin,カァーカァーグーク貤,
-0x9495a8@mhfdat-jp.bin,カァーカァーグーク賖,
-0x9495ac@mhfdat-jp.bin,カァーカァーグーク賕,
-0x9495b0@mhfdat-jp.bin,カァーカァーグーク賙,
-0x9495b4@mhfdat-jp.bin,カァーカァーグーク賰,
-0x9495b8@mhfdat-jp.bin,カァーカァーグーク賱,
-0x9495bc@mhfdat-jp.bin,ピエーピエーグーク貤,
-0x9495c0@mhfdat-jp.bin,ピエーピエーグーク賖,
-0x9495c4@mhfdat-jp.bin,ピエーピエーグーク賕,
-0x9495c8@mhfdat-jp.bin,ピエーピエーグーク賙,
-0x9495cc@mhfdat-jp.bin,ピエーピエーグーク賰,
-0x9495d0@mhfdat-jp.bin,ピエーピエーグーク賱,
-0x9495d4@mhfdat-jp.bin,ゴールデングーク貤,
-0x9495d8@mhfdat-jp.bin,ゴールデングーク賖,
-0x9495dc@mhfdat-jp.bin,ゴールデングーク賕,
-0x9495e0@mhfdat-jp.bin,ゴールデングーク賙,
-0x9495e4@mhfdat-jp.bin,ゴールデングーク賰,
-0x9495e8@mhfdat-jp.bin,ゴールデングーク賱,
-0x9495ec@mhfdat-jp.bin,シルバーグーク貤,
-0x9495f0@mhfdat-jp.bin,シルバーグーク賖,
-0x9495f4@mhfdat-jp.bin,シルバーグーク賕,
-0x9495f8@mhfdat-jp.bin,シルバーグーク賙,
-0x9495fc@mhfdat-jp.bin,シルバーグーク賰,
-0x949600@mhfdat-jp.bin,シルバーグーク賱,
-0x949604@mhfdat-jp.bin,ブロンズグーク貤,
-0x949608@mhfdat-jp.bin,ブロンズグーク賖,
-0x94960c@mhfdat-jp.bin,ブロンズグーク賕,
-0x949610@mhfdat-jp.bin,ブロンズグーク賙,
-0x949614@mhfdat-jp.bin,ブロンズグーク賰,
-0x949618@mhfdat-jp.bin,ブロンズグーク賱,
-0x94961c@mhfdat-jp.bin,グァーグァーグーク賱,
-0x949620@mhfdat-jp.bin,ワァーワァーグーク賱,
-0x949624@mhfdat-jp.bin,ガァーガァーグーク賱,
-0x949628@mhfdat-jp.bin,サンタ・デ・グーク貤,
-0x94962c@mhfdat-jp.bin,サンタ・デ・グーク賖,
-0x949630@mhfdat-jp.bin,サンタ・デ・グーク賕,
-0x949634@mhfdat-jp.bin,サンタ・デ・グーク賙,
-0x949638@mhfdat-jp.bin,サンタ・デ・グーク𧶠,
+0x9494cc@mhfdat-jp.bin,キョロキョログーク貤,Blink-Blink Goocoo Ⅰ
+0x9494d0@mhfdat-jp.bin,キョロキョログーク賖,Blink-Blink Goocoo Ⅱ
+0x9494d4@mhfdat-jp.bin,キョロキョログーク賕,Blink-Blink Goocoo Ⅲ
+0x9494d8@mhfdat-jp.bin,キョロキョログーク賙,Blink-Blink Goocoo Ⅳ
+0x9494dc@mhfdat-jp.bin,キョロキョログーク賰,Blink-Blink Goocoo Ⅵ
+0x9494e0@mhfdat-jp.bin,キョロキョログーク賱,Blink-Blink Goocoo Ⅶ
+0x9494e4@mhfdat-jp.bin,ワイワイグーク貤,Blah-Blah Goocoo I
+0x9494e8@mhfdat-jp.bin,ワイワイグーク賖,Blah-Blah Goocoo II
+0x9494ec@mhfdat-jp.bin,ワイワイグーク賕,Blah-Blah Goocoo III
+0x9494f0@mhfdat-jp.bin,ワイワイグーク賙,Blah-Blah Goocoo IV
+0x9494f4@mhfdat-jp.bin,ワイワイグーク賰,Blah-Blah Goocoo V
+0x9494f8@mhfdat-jp.bin,ワイワイグーク賱,Blah-Blah Goocoo VI
+0x9494fc@mhfdat-jp.bin,ピャーピャーグーク貤,Squeak-Squeak Goocoo I
+0x949500@mhfdat-jp.bin,ピャーピャーグーク賖,Squeak-Squeak Goocoo II
+0x949504@mhfdat-jp.bin,ピャーピャーグーク賕,Squeak-Squeak Goocoo III
+0x949508@mhfdat-jp.bin,ピャーピャーグーク賙,Squeak-Squeak Goocoo IV
+0x94950c@mhfdat-jp.bin,ピャーピャーグーク賰,Squeak-Squeak Goocoo V
+0x949510@mhfdat-jp.bin,ピャーピャーグーク賱,Squeak-Squeak Goocoo VI
+0x949514@mhfdat-jp.bin,ギャオギャオグーク貤,Goo-Goo Goocoo I
+0x949518@mhfdat-jp.bin,ギャオギャオグーク賖,Goo-Goo Goocoo II
+0x94951c@mhfdat-jp.bin,ギャオギャオグーク賕,Goo-Goo Goocoo III
+0x949520@mhfdat-jp.bin,ギャオギャオグーク賙,Goo-Goo Goocoo IV
+0x949524@mhfdat-jp.bin,ギャオギャオグーク賰,Goo-Goo Goocoo V
+0x949528@mhfdat-jp.bin,ギャオギャオグーク賱,Goo-Goo Goocoo VI
+0x94952c@mhfdat-jp.bin,ギャアギャアグーク貤,Gaa-Gaa Goocoo I
+0x949530@mhfdat-jp.bin,ギャアギャアグーク賖,Gaa-Gaa Goocoo II
+0x949534@mhfdat-jp.bin,ギャアギャアグーク賕,Gaa-Gaa Goocoo III
+0x949538@mhfdat-jp.bin,ギャアギャアグーク賙,Gaa-Gaa Goocoo IV
+0x94953c@mhfdat-jp.bin,ギャアギャアグーク賰,Gaa-Gaa Goocoo V
+0x949540@mhfdat-jp.bin,ギャアギャアグーク賱,Gaa-Gaa Goocoo VI
+0x949544@mhfdat-jp.bin,ヒャーヒャーグーク貤,Hee-Hee Goocoo I
+0x949548@mhfdat-jp.bin,ヒャーヒャーグーク賖,Hee-Hee Goocoo II
+0x94954c@mhfdat-jp.bin,ヒャーヒャーグーク賕,Hee-Hee Goocoo III
+0x949550@mhfdat-jp.bin,ヒャーヒャーグーク賙,Hee-Hee Goocoo IV
+0x949554@mhfdat-jp.bin,ヒャーヒャーグーク賰,Hee-Hee Goocoo V
+0x949558@mhfdat-jp.bin,ヒャーヒャーグーク賱,Hee-Hee Goocoo VI
+0x94955c@mhfdat-jp.bin,クエックエッグーク貤,Quack-Quack Goocoo I
+0x949560@mhfdat-jp.bin,クエックエッグーク賖,Quack-Quack Goocoo II
+0x949564@mhfdat-jp.bin,クエックエッグーク賕,Quack-Quack Goocoo III
+0x949568@mhfdat-jp.bin,クエックエッグーク賙,Quack-Quack Goocoo IV
+0x94956c@mhfdat-jp.bin,クエックエッグーク賰,Quack-Quack Goocoo V
+0x949570@mhfdat-jp.bin,クエックエッグーク賱,Quack-Quack Goocoo VI
+0x949574@mhfdat-jp.bin,クカカカカグーク貤,Tap-Tap Goocoo I
+0x949578@mhfdat-jp.bin,クカカカカグーク賖,Tap-Tap Goocoo II
+0x94957c@mhfdat-jp.bin,クカカカカグーク賕,Tap-Tap Goocoo III
+0x949580@mhfdat-jp.bin,クカカカカグーク賙,Tap-Tap Goocoo IV
+0x949584@mhfdat-jp.bin,クカカカカグーク賰,Tap-Tap Goocoo V
+0x949588@mhfdat-jp.bin,クカカカカグーク賱,Tap-Tap Goocoo VI
+0x94958c@mhfdat-jp.bin,キョエキョエグーク貤,Squish-Squish Goocoo I
+0x949590@mhfdat-jp.bin,キョエキョエグーク賖,Squish-Squish Goocoo II
+0x949594@mhfdat-jp.bin,キョエキョエグーク賕,Squish-Squish Goocoo III
+0x949598@mhfdat-jp.bin,キョエキョエグーク賙,Squish-Squish Goocoo IV
+0x94959c@mhfdat-jp.bin,キョエキョエグーク賰,Squish-Squish Goocoo V
+0x9495a0@mhfdat-jp.bin,キョエキョエグーク賱,Squish-Squish Goocoo VI
+0x9495a4@mhfdat-jp.bin,カァーカァーグーク貤,Caw-Caw Goocoo I
+0x9495a8@mhfdat-jp.bin,カァーカァーグーク賖,Caw-Caw Goocoo II
+0x9495ac@mhfdat-jp.bin,カァーカァーグーク賕,Caw-Caw Goocoo III
+0x9495b0@mhfdat-jp.bin,カァーカァーグーク賙,Caw-Caw Goocoo IV
+0x9495b4@mhfdat-jp.bin,カァーカァーグーク賰,Caw-Caw Goocoo V
+0x9495b8@mhfdat-jp.bin,カァーカァーグーク賱,Caw-Caw Goocoo VI
+0x9495bc@mhfdat-jp.bin,ピエーピエーグーク貤,Sniffle-Sniffle Goocoo I
+0x9495c0@mhfdat-jp.bin,ピエーピエーグーク賖,Sniffle-Sniffle Goocoo II
+0x9495c4@mhfdat-jp.bin,ピエーピエーグーク賕,Sniffle-Sniffle Goocoo III
+0x9495c8@mhfdat-jp.bin,ピエーピエーグーク賙,Sniffle-Sniffle Goocoo IV
+0x9495cc@mhfdat-jp.bin,ピエーピエーグーク賰,Sniffle-Sniffle Goocoo V
+0x9495d0@mhfdat-jp.bin,ピエーピエーグーク賱,Sniffle-Sniffle Goocoo VI
+0x9495d4@mhfdat-jp.bin,ゴールデングーク貤,Golden Goocoo I
+0x9495d8@mhfdat-jp.bin,ゴールデングーク賖,Golden Goocoo II
+0x9495dc@mhfdat-jp.bin,ゴールデングーク賕,Golden Goocoo III
+0x9495e0@mhfdat-jp.bin,ゴールデングーク賙,Golden Goocoo IV
+0x9495e4@mhfdat-jp.bin,ゴールデングーク賰,Golden Goocoo V
+0x9495e8@mhfdat-jp.bin,ゴールデングーク賱,Golden Goocoo VI
+0x9495ec@mhfdat-jp.bin,シルバーグーク貤,Silver Goocoo I
+0x9495f0@mhfdat-jp.bin,シルバーグーク賖,Silver Goocoo II
+0x9495f4@mhfdat-jp.bin,シルバーグーク賕,Silver Goocoo III
+0x9495f8@mhfdat-jp.bin,シルバーグーク賙,Silver Goocoo IV
+0x9495fc@mhfdat-jp.bin,シルバーグーク賰,Silver Goocoo V
+0x949600@mhfdat-jp.bin,シルバーグーク賱,Silver Goocoo VI
+0x949604@mhfdat-jp.bin,ブロンズグーク貤,Bronze Goocoo I
+0x949608@mhfdat-jp.bin,ブロンズグーク賖,Bronze Goocoo II
+0x94960c@mhfdat-jp.bin,ブロンズグーク賕,Bronze Goocoo III
+0x949610@mhfdat-jp.bin,ブロンズグーク賙,Bronze Goocoo IV
+0x949614@mhfdat-jp.bin,ブロンズグーク賰,Bronze Goocoo V
+0x949618@mhfdat-jp.bin,ブロンズグーク賱,Bronze Goocoo VI
+0x94961c@mhfdat-jp.bin,グァーグァーグーク賱,Gwah-Gwah Goocoo VII
+0x949620@mhfdat-jp.bin,ワァーワァーグーク賱,Wah-Wah Goocoo VII
+0x949624@mhfdat-jp.bin,ガァーガァーグーク賱,Gawk-Gawk Goocoo VII
+0x949628@mhfdat-jp.bin,サンタ・デ・グーク貤,Santa D'Goocoo I
+0x94962c@mhfdat-jp.bin,サンタ・デ・グーク賖,Santa D'Goocoo II
+0x949630@mhfdat-jp.bin,サンタ・デ・グーク賕,Santa D'Goocoo III
+0x949634@mhfdat-jp.bin,サンタ・デ・グーク賙,Santa D'Goocoo IV
+0x949638@mhfdat-jp.bin,サンタ・デ・グーク𧶠,Santa D'Goocoo V
 0x94963c@mhfdat-jp.bin,賀正斬鎚【日出】,
 0x949640@mhfdat-jp.bin,賀正斬鎚【日光】,
 0x949644@mhfdat-jp.bin,賀正斬鎚【天晴】,
@@ -16803,10 +16803,10 @@ location,source,target
 0x949c80@mhfdat-jp.bin,ラブリーアイルー賕,
 0x949c84@mhfdat-jp.bin,ラブリーアイルー賙,
 0x949c88@mhfdat-jp.bin,ラブリーアイルー𧶠,
-0x949c8c@mhfdat-jp.bin,雛飾りグーク,
-0x949c90@mhfdat-jp.bin,雛飾りグークク,
-0x949c94@mhfdat-jp.bin,雛飾りグーククワ,
-0x949c98@mhfdat-jp.bin,雛飾りグーククワワッ,
+0x949c8c@mhfdat-jp.bin,雛飾りグーク,Ornamental Goocoo
+0x949c90@mhfdat-jp.bin,雛飾りグークク,Ornamental Goocoocoo
+0x949c94@mhfdat-jp.bin,雛飾りグーククワ,Ornamental Goocoocoowa
+0x949c98@mhfdat-jp.bin,雛飾りグーククワワッ,Ornamental Goocoocoowawah
 0x949c9c@mhfdat-jp.bin,ビスケットクリーム貤,
 0x949ca0@mhfdat-jp.bin,ビスケットクリーム賖,
 0x949ca4@mhfdat-jp.bin,ビスケットクリーム賕,
